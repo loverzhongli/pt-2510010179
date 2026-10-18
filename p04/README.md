@@ -7,7 +7,7 @@ di modul (Gambar 2 sampai 7); baca gambarnya dulu, baru kodenya.
 
 | Berkas | Kegunaan |
 |---|---|
-| `if_dasar.cpp` | if satu cabang: peringatan bila nilai di bawah 60 | bedanya dengan < saja jika nilai adalah 60 tidak ada peringatan dan jika menggunakan <= maka muncul peringatan karena dengan itu jika nilainya 60 maka sama dengan syarat yg diberikan didalam kode 60, menggunakan <= akan sesuai kontrak | akan selalu dicetak entah nilainya sesuai ataupun tidak  
+| `if_dasar.cpp` | if satu cabang: peringatan bila nilai di bawah 60 |
 | `if_else.cpp` | if-else: lulus atau belum lulus | 
 | `bertingkat.cpp` | if-else bertingkat tiga syarat; coba tukar urutannya |
 | `logika.cpp` | `&&`, `||`, `!` dengan bool bernama; syarat ikut UAS |
@@ -32,14 +32,12 @@ di modul (Gambar 2 sampai 7); baca gambarnya dulu, baru kodenya.
 Folder `p04` di repository `pt-NPM` berisi `sinilai_v03.cpp` dan  `README.md`. Lihat Modul Pertemuan 4 bagian E.
 
 ## Deklarasi AI
-Saya menggunakan AI untuk membantu saya push file git dan mengoreksi flowchart saya dengan mengirim foto permasalahan dengan respon ai mengatakan apa yang seharusnya saya lakukan.
-
-dan saya dibantu teman saya.
+Saya menggunakan Ai untuk membantu saya mengindentifikasi masalah yang ada pada kode saya dengan mengirim foto masalah dan prompt apa yang salah sekaligus dengan bantuan  teman saya.
 
 Tuliskan AI yang digunakan, prompt, dan umpan balik AI
 
 ## Tugas Mandiri
-1. yang berulang adalah pola pengecekannya kalau di gambar 4 ada 4 sementara saya ada 7 dan pola pengecekan yang sama ada pada 80, 70, 60
-4. untuk keluar bisa menggunakan pilihan 3 atau k dan pilihan dari integer berubah menjadi char dengan menggunakan ''
-5. masih sama karena setiap input nilai seperti 79.9 misalnya akan langsung dibagi 10 yang mana mengaktifkan opsi ke 7 yaitu nilai B sementara Opsi 10-8 merupakan A.
+1. menurut saya yang berulang adalah keputusan if untuk 80, 70, 60
+4. dari int menjadi char dengan petik 1 ''
+5. dikarenakan setiap input dibagi 10 makan mengikuti hasil inputan tersebut semisal nilai 80 dan case 8 maka 80 akan dibagi 10 dan akan memproses case 8
 
